@@ -1,0 +1,13 @@
+body{
+	background: url(fon8mart.jpg) fixed;
+	background-size: cover;
+}
+@keyframes fade {
+	0%{opacity: 0;}
+	50%{opacity: 0.5;}
+	100%{opacity: 1;}
+}
+#fade img{
+	animation-name: fade;
+	animation-duration: 7s;
+}
